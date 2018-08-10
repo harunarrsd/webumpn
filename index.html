@@ -6,24 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UMPN PNJ</title>
 
+    <link rel="shortcut icon" href="assets/images/umpn3.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/carousel.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body id="page-top">
+<!-- Loader -->
+<div class="preloader">
+    <div class="loading">
+      <img src="assets/images/load.gif" width="100">
+    </div>
+</div>
+
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">UMPN PNJ</a>
+          <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">UMPN PNJ</a> -->
+          <a class="nav-link js-scroll-trigger" href="#page-top"><img src="assets/images/umpn3.png" width="100px"></a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <!-- <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
-              </li> -->
               <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#about">About</a>
               </li>
@@ -31,13 +39,7 @@
                 <a class="nav-link js-scroll-trigger" href="#features">Features</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#info_jur">Info Jurusan</a>
               </li>
             </ul>
           </div>
@@ -50,9 +52,9 @@
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
                 <h1 class="mb-5">It's Amazing!</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a href="#" class="btn btn-outline btn-xl js-scroll-trigger">Play Store</a>
-                <a href="#" class="btn btn-outline btn-xl js-scroll-trigger">App Store</a>
+                <p>Kini telah hadir aplikasi untuk menguji kemampuan dirinya dalam menjawab soal-soal latihan UMPN yang tersedia di dalam aplikasi yang bernama UMPN Apps.</p>
+                <a href="." class="btn btn-outline btn-xl js-scroll-trigger">Play Store</a>
+                <a href="." class="btn btn-outline btn-xl js-scroll-trigger">App Store</a>
               </div>
             </div>
             <div class="col-lg-5 my-auto">
@@ -60,11 +62,7 @@
                 <div class="device-mockup iphone6_plus portrait white">
                   <div class="device">
                     <div class="screen">
-                      <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                      <img src="assets/images/demo-screen-1.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="button">
-                      <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                      <img src="assets/images/hp.png" class="img-fluid">
                     </div>
                   </div>
                 </div>
@@ -74,64 +72,197 @@
         </div>
     </header>
 
-    <section class="about bg-primary text-center" id="about">
-        <div class="container">
-            <div class="section-heading text-center">
-              <h2>About</h2>
-              <hr>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <section class="about" id="about">
+        <div class="container" style="background-color: #fff;border-radius: 5px;">
+            <div class="section-heading"><br>
+              <h2 class="text-center">About</h2>
+              <img src="assets/images/divide.png" style="margin-left: auto;margin-right: auto;display: block;"><br>
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="assets/images/spnj.png" style="width: 100%;margin-top: 50px;">
+                </div>
+                <div class="col-md-9">
+                  <h3>UMPN APPS</h3>
+                  <p class="text-justify">UMPN Apps merupakan upaya penyelesaian tugas akhir dari kelompok 4 KSM SPNJ. UMPN Apps memungkinkan pengguna untuk mengakses, mencoba dan menguji kemampuan dirinya dalam menjawab soal-soal latihan UMPN yang tersedia di dalam aplikasi. UMPN Apps juga memungkinkan pengguna untuk melihat hasil dari uji kemampuannya dengan adanya fitur statistik di dalam aplikasi.
+                    </p>
+                </div>
+              </div><br>
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="assets/images/umpn3.png" style="width: 100%;">
+                </div>
+                <div class="col-md-9">
+                  <h3>UMPN</h3>
+                  <p class="text-justify">Penerimaan mahasiswa baru jalur Ujian Masuk Politeknik Nasional (UMPN) merupakan pola penerimaan mahasiswa baru Politeknik Negeri yang dilaksanakan secara serempak seluruh politeknik negeri di Indonesia. Penerimaan dilaksanakan secara nasional, namun pendaftaran mahasiswa baru menggunakan sistem penerimaan masing-masing politeknik. Melalui jalur ini siswa diseleksi berdasarkan kemampuan akademis (ujian tulis), dan tes kekhususan bagi pemilih program studi tertentu.
+                  </p>
+                </div>
+              </div><br>
+              <div class="row">
+                <div class="col-md-3">
+                  <img src="assets/images/PNJ.png" style="width: 100%;">
+                </div>
+                <div class="col-md-9">
+                  <h3>POLITEKNIK NEGERI JAKARTA</h3>
+                  <p class="text-justify">
+                    Politeknik Negeri Jakarta telah tumbuh dan berkembang seiring dengan pesatnya perkembangan ilmu pengetahuan dan teknologi. Dengan selalu melakukan evaluasi diri dan pengembangan kemitraan dengan berbagai lembaga, merupakan suatu komitmen kelembagaan sehingga setiap perubahan baik di sisi internal maupun eksternal.<br>
+                      Politeknik Negeri Jakarta merupakan perguruan tinggi negeri yang menyelenggarakan program vokasi yang didirikan untuk memenuhi kebutuhan SDM profesional di industri, baik industri jasa maupun industri manufaktur.
+                  </p>
+                  <p>
+                    Dengan kecenderungan lingkungan kearah globalisasi dan persaingan yang semakin terbuka, maka Politeknik Negeri Jakarta menetapkan Visi dan Misi sebagai berikut:
+                  </P>
+                  <p>Visi</p>
+                  <p class="text-center">
+                      "Menjadi Politeknik Unggul Bertaraf Internasional Untuk Mendukung Daya Saing Bangsa"
+                  </p>
+                  <p>Misi</p>
+                  <ol>
+                    <li><p>Menyelenggarakan pendidikan vokasi yang berbasis ilmu pengetahuan dan teknologi yang berkarakter dan bertaqwa kepada Tuhan Yang Maha Esa</p></li>
+                    <li><p>Mengembangkan penelitian dan peningkatan penerapan ilmu pengetahuan dan teknologi serta produk inovasi berkualitas guna meningkatkan daya saing bangsa</p></li>
+                    <li><p>Mengembangkan institusi yang efisien, efektif dan akuntabel berbasis ICT (Information Communication Technology)</p></li>
+                  </ol> 
+                </div>
+              </div>
             </div>
             <!-- isi konten -->
         </div>
     </section>
 
-    <section class="features" id="features">
-        <div class="container">
-          <div class="section-heading text-center">
+    <section id="features">
+        <div style="background-color: #1D689D;height: 515px;">
+          <div class="container section-heading text-center text-white"><br>
             <h2>Features</h2>
-            <hr>
-            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          </div>
-          <!-- isi konten -->
-        </div>
-    </section>
-
-    <section class="gallery" id="gallery">
-        <div class="container">
-          <div class="section-heading text-center">
-            <h2>Gallery</h2>
-            <hr>
-            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          </div>
+            <img src="assets/images/divide2.png" style="margin-left: auto;margin-right: auto;display: block;"><br><br><br><br><br>
+            <div class="row">
+              <div class="col-md-4">
+                  <img src="assets/images/tryout.png" style="width: 150px;margin-left: auto;margin-right: auto;display: block;"><br>
+                  <h4>Try Out</h4>
+              </div>
+              <div class="col-md-4">
+                <img src="assets/images/statistika.png" style="width: 150px;margin-left: auto;margin-right: auto;display: block;"><br>
+                <h4>Statistika</h4>
+              </div>
+              <div class="col-md-4">
+                  <img src="assets/images/passinggrade.png" style="width: 150px;margin-left: auto;margin-right: auto;display: block;"><br>
+                  <h4>Passing Grade</h4>
+              </div>
+            </div>
+          </div><br>
           <!-- isi konten -->
         </div>
     </section>
 
     <section class="team" id="team">
-        <div class="container">
-          <div class="section-heading text-center">
+        <div class="container" style="background-color: #fff;">
+          <div class="section-heading text-center"><br>
             <h2>Team</h2>
-            <hr>
-            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <img src="assets/images/divide.png" style="margin-left: auto;margin-right: auto;display: block;"><br>
           </div>
+          <div id="owl-1">
+            <div class="owl-carousel owl-theme">
+              <div class="panel text-center">
+                <img src="assets/images/har.jpeg" class="img-thumbnail img-responsive">
+                <h4>Harun</h4>
+                <h6>Website</h6>
+                <p>"Hidup berarti untuk berbagi"</p>
+              </div>
+              <div class="panel text-center">
+                <img src="assets/images/his.jpg" class="img-thumbnail img-responsive">
+                <h4>Hisanah Salsabila</h4>
+                <h6>Website</h6>
+                <p>"Jadilah seseorang yang menginspirasi"</p>
+              </div>
+              <div class="panel text-center">
+                  <img src="assets/images/rio.jpeg" class="img-thumbnail img-responsive">
+                  <h4>Ario sutrisno</h4>
+                  <h6>Website</h6>
+                  <p>"Tidak akan pernah sampai akhir"</p>
+              </div>
+              <div class="panel text-center">
+                  <img src="assets/images/org.png" class="img-thumbnail img-responsive">
+                  <h4>Ilham Saiful Azis</h4>
+                  <h6>Website</h6>
+                  <p>"Halalan Toyyiban"</p>
+              </div>
+              <div class="panel text-center">
+                  <img src="assets/images/fis.jpeg" class="img-thumbnail img-responsive">
+                  <h4>Muhammad Alfis</h4>
+                  <h6>Website</h6>
+                  <p>"صَلَّى اللَّهُ عَلَى مُحَمَّد"</p>
+              </div>
+              <div class="panel text-center">
+                  <img src="assets/images/org.png" class="img-thumbnail img-responsive">
+                  <h4>Fathur Rahman Haikal</h4>
+                  <h6>Android</h6>
+                  <p>"ibu-ibu make konde,ada cacing didalam sardeng"</p>
+              </div>
+              <div class="panel text-center">
+                  <img src="assets/images/riz.jpeg" class="img-thumbnail img-responsive" style="height: 270px;;">
+                  <h4>Rizkiya Febri</h4>
+                  <h6>Android</h6>
+                  <p>"i"ll not stay on the ground,pick it up""</p>
+              </div>
+              <div class="panel text-center">
+                  <img src="assets/images/org.png" class="img-thumbnail img-responsive">
+                  <h4>Ilham Dwi Pratama S</h4>
+                  <h6>Android</h6>
+                  <p>"knowing for owning"</p>
+              </div>
+              <div class="panel text-center">
+                <img src="assets/images/bung.jpeg" class="img-thumbnail img-responsive">
+                <h4>Bung Gilang</h4>
+                <h6>Mograph</h6>
+                <p>"Pergilah ke tempat dimana kamu dihargai"</p>
+              </div>
+              <div class="panel text-center">
+                <img src="assets/images/al.jpg" class="img-thumbnail img-responsive">
+                <h4>Alia Ismayanti</h4>
+                <h6>Mograph</h6>
+                <p>"Belajar dari sebuah kegagalan"</p>
+              </div>
+          </div><br>
+        </div>
           <!-- isi konten -->
         </div>
     </section>
 
-    <section class="info_jur" id="info_jur">
-        <div class="container">
-          <div class="section-heading text-center">
-            <h2>Informasi Jurusan</h2>
-            <hr>
-            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <!-- Footer -->
+<footer>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <div class="copyright">
+            © 2018 | Sahabat PNJ Kel. 4 | UMPN Apps | All rights reserved
           </div>
-          <!-- isi konten -->
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<input type="button" id="tombolScrollTop" onclick="scrolltotop()">
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js//jquery.easing.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/carousel.min.js"></script>
     <script src="assets/js/umpn.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".preloader").fadeOut();
+        $(window).scroll(function(){
+		      if ($(window).scrollTop() > 100) {
+		      	$('#tombolScrollTop').fadeIn();
+		      } else {
+		      	$('#tombolScrollTop').fadeOut();
+		      }
+	      });
+      });
+      function scrolltotop()
+      {
+      	$('html, body').animate({scrollTop : 0},500);
+      }
+    </script>
 </body>
 </html>
